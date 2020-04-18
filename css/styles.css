@@ -49,3 +49,26 @@ h1{
     width: 60%;
     transform: rotate(25deg);
 }
+
+/* FEATURE  */
+.col-lg-4{
+    text-align: center;
+    padding-bottom: 72px;
+}
+.ft-head{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding-top: 15px;
+}
+.ft-text{
+    color: #8f8f8f;
+    width: 75%;
+    margin: 0 auto;
+}
+.ft-icon{
+    color: #ef8172;
+}
+.ft-icon:hover{
+    color: #ff4c68;
+}
