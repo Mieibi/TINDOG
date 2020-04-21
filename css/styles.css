@@ -10,6 +10,12 @@ h1{
 .container-fluid{
     padding: 3% 15%;
 }
+h2{
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 2.5rem;
+}
+
 /* NAV BAR  */
 
 .navbar{
@@ -35,7 +41,7 @@ h1{
     background-color: #ff4c68;
     color: white;
 }
-.row{
+.title-row{
     padding-top: 4.5rem; 
 }
 
@@ -51,7 +57,10 @@ h1{
 }
 
 /* FEATURE  */
-.col-lg-4{
+#features{
+    padding: 5% 15%;
+}
+.col-ft{
     text-align: center;
     padding-bottom: 72px;
 }
@@ -71,4 +80,46 @@ h1{
 }
 .ft-icon:hover{
     color: #ff4c68;
+}
+
+/* Testimonial section */
+
+#testimonials{
+   
+    text-align: center;
+    background-color:#ef8172;
+}
+.carousel-inner{
+    padding: 7% 15%;
+}
+.testimonial-text{
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 2rem;
+    color: white;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press section */
+#press{
+    background-color:#ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 50px 20px;
+}
+
+/* Pricing Section*/
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.price-col{
+    padding: 3% 2%;
 }
