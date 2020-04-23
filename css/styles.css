@@ -8,15 +8,24 @@ h1{
     font-weight: 900;
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 h2{
     font-weight: 900;
     line-height: 1.5;
     font-size: 2.5rem;
 }
+h3{
+    font-weight: 900;
+    line-height: 1.5;
+}
+/* TITLE */
 
-/* NAV BAR  */
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+
 
 .navbar{
     padding: 8px 0 0 0;
@@ -35,30 +44,24 @@ h2{
     font-family: 'Montserrat', sans-serif;
 }
 
-/* TITLE */
-
-#title{
-    background-color: #ff4c68;
-    color: white;
-}
 .title-row{
     padding-top: 4.5rem; 
 }
-
-/* DOWNLOAD BUTTONS */
 .download-button{
     margin: 5% 3% 5% 0;
 }
-
-/* TITLE-IMG */
 .iphone-img{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 29%;
 }
 
 /* FEATURE  */
 #features{
-    padding: 5% 15%;
+    padding: 12% 15% 5%;
+    background-color: white;
+    position: relative;
 }
 .col-ft{
     text-align: center;
@@ -115,11 +118,54 @@ h2{
     margin: 20px 50px 20px;
 }
 
-/* Pricing Section*/
+/* Pricing Section */
+
 #pricing{
     padding: 100px;
     text-align: center;
 }
 .price-col{
     padding: 3% 2%;
+}
+
+/* CTA SECTION */
+
+#cta{
+    background-color:#ff4c68;
+    padding: 6% 15%;
+    text-align: center;
+}
+.cta-text{
+    font-size: 3.5rem;
+    color: white;
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* FOOTER  */
+
+ #footer{
+    background-color: white;
+    padding: 7% 15%;
+    text-align: center;
+} 
+.footer-icon{
+    margin:1%;
+}
+.footer-text{
+    padding: 2%;
+}
+
+
+@media (max-width: 1070px){
+    #title{
+        text-align: center;
+    }
+    .iphone-img{
+        position: static;
+        transform: rotate(0);
+    }
+    .cta-text{
+        width: 90%;
+    }
 }
